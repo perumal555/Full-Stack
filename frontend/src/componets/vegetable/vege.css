@@ -1,0 +1,18 @@
+.vege_table{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+/* ========== all_item =====> */
+
+.all_item{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+}

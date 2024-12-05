@@ -1,0 +1,92 @@
+.shop{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../Assets/shop-banner.jpg');
+    position: relative;
+    background-position: center center;
+}
+.shop h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.shop-container{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 30px;
+}
+
+.shop-contant{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 4%;
+}
+
+.shop-input{
+    width: 22%;
+    border-radius: 8px;
+    margin-left: 8%;
+    
+}
+
+@media(max-width:568px){
+    .shop-contant{
+        display: block;
+    }
+}
+.type-text input{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+}
+
+@media(max-width:568px){
+    .page-store{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+}
+.p-span p{
+   cursor: pointer;
+}
+.p-span p:hover{
+    color: orange;
+}
+.shop-all-img{
+    display: flex;
+    margin-top: 5%;
+}
+
+@media(max-width:568px){
+    .shop-all-img{
+        display: block;
+    }
+}
+
+.shop-hover{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 10%;
+}
+.filter-shop{
+    height: 350px;
+    transition: all 0.3s ease;
+}
+.filter-shop:hover{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    transform: translateY(-10px);
+}
+.filter-imgs:hover{
+    border-radius: 10px;
+}

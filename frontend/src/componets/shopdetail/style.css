@@ -1,0 +1,83 @@
+.detail{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  animation:shop 4s ease forwards;
+}
+@keyframes shop{
+  0%{
+    transform: translatey(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translatey(0px);
+    opacity: 1;
+  }
+}
+
+.detail-card{
+  width:80%;
+  height: auto;
+  margin-left: 10%;
+  background-color: rgba(232, 236, 236, 0.986);
+}
+
+.detail-card h1{
+  text-align: center;
+  color: rgb(50, 50, 128);
+}
+.detail3 ul{
+  cursor: pointer;
+}
+.detail3 ul li a:hover{
+  border-bottom: 1px solid black;
+}
+.from-data{
+  background-color: rgb(105, 102, 102);
+  width: 60%;
+  margin-left: 20%;
+}
+
+.damy-data{
+   margin-left: 20px;
+}
+
+.damy-data label{
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 500px;
+
+}
+.damy-data input{
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+.input{
+  margin-left: 50px;
+}
+.input2{
+  margin-left: 40px;
+}
+.input3{
+  margin-left: 30px;
+}
+@media(max-width:568px){
+  .from-data{
+    width: 90%;
+    margin-left: 5%
+  }
+  .damy-data input{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .input{
+    margin-left: -3%;
+  }
+  
+}

@@ -1,0 +1,44 @@
+.header{
+  top: 0px;
+  position: sticky;
+  z-index: 1000;
+}
+.header h2{
+  color: rgb(14, 233, 14);
+  animation:np 4s ease forwards;
+}   
+
+@keyframes np{
+  0%{
+    transform: translatey(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translatey(0px);
+    opacity: 1;
+  }
+
+}
+
+.nav  a{
+    font-size: 23px;
+    color: rgb(45, 45, 61);
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif ;
+    animation:smile 4s ease forwards;
+}
+.nav a:hover{
+    color: rgb(14, 233, 14);
+}
+
+@keyframes smile{
+  0%{
+    transform: translate(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0px);
+    opacity: 1;
+  }
+
+}
